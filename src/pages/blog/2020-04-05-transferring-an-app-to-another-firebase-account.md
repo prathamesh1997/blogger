@@ -12,7 +12,7 @@ tags:
   - Firebase
   - Technology
 ---
-###### To transfer firestore data login to google cloud account first and follow the steps below.
+#### To transfer firestore data login to google cloud account first and follow the steps below.
 
 #### Create a Cloud Storage bucket to hold the data from your source project.
 
@@ -90,7 +90,7 @@ tags:
 
 ![Firebase   Storage](/img/storage.png)
 
-###### You can create a transfer job in the GCP Console. You can specify source/destination buckets from different projects as long as you have access permissions
+#### You can create a transfer job in the GCP Console. You can specify source/destination buckets from different projects as long as you have access permissions
 
 ```
 gsutil cp -r gs://[PROJECT_A_ID].appspot.com/my_directory gs://[PROJECT_B_ID].appspot.com
