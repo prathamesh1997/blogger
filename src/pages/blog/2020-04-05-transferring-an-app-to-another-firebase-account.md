@@ -16,7 +16,7 @@ tags:
 
 #### Create a Cloud Storage bucket to hold the data from your source project.
 
-![Navigate to Storage and select Browser.](/img/browser.PNG "Navigate to Storage and select Browser.")
+![Navigate to Storage and select Browser.](/img/browser.PNG)
 
 **Step 1:** Navigate to Storage and select Browser.
 
@@ -86,13 +86,9 @@ tags:
   firebase auth:import ./AllUsers.json --hash-algo=scrypt --rounds=8 --mem-cost=14 --hash-key=<long string of random characters> --salt-separator=<short string of random characters>
   ```
 
-
-
 #### Transfer Firebase Storage to different Account
 
-![Firebase   Storage](/img/storage.png "Firebase Storage")
-
-
+![Firebase   Storage](/img/storage.png)
 
 ###### You can create a transfer job in the GCP Console. You can specify source/destination buckets from different projects as long as you have access permissions
 
