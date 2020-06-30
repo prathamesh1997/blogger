@@ -26,7 +26,7 @@ tags:
 
   `exportnamespaceTokenServiceConstants{`
 
-  `exportconstTOKEN_SECRET_VALUE='AIzaSyAR-saph68yMiDnAg3Tb2xJXgrvS6IKFj0';`
+  `exportconstTOKEN_SECRET_VALUE='xxxxxxxxxxxxxxx';`
 
   `exportconstTOKEN_EXPIRES_IN_VALUE='600';`
 
